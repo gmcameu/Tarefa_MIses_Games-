@@ -3,8 +3,9 @@ using namespace std;
 
 void Adiciona3(unsigned arg1, unsigned arg2)
 {
-	arg1 += 3;
-	arg2 += 3;
+	cout << arg1 << " + 3 =  "<< arg1 + 3 << endl;
+	cout << arg2 << " + 3 =  " << arg2 + 3 << endl;
+	cout << arg1 << " + " << arg2 << " = " << arg1 + arg2 << endl;
 }
 
 int main()
@@ -18,7 +19,5 @@ int main()
 
 	Adiciona3(num_1, num_2);
 
-	cout << "Os novos numeros sao: " << num_1 << " e " << num_2;
 
-	return 0;
 }
